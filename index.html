@@ -11,9 +11,9 @@
     <header>
         <h1>Calculadora simples</h1>
     </header>
-    <form>
+    <div id = "form">
         <input type="number" id="n1" placeholder="Digite o primeiro algarismo" required> <br> <br>
-        <select> <br>
+        <select id = "seletor"> <br>
             <option value="+">+</option>
             <option value="-">-</option>
             <option value="*">X</option>
@@ -22,7 +22,14 @@
         <input type="number" id="n2" placeholder="Digite o segundo algarismo" required> <br> <br>
           
     <button onclick="calcular()">Calcular</button>
-        </form>
+    </div>
+        <div>
+            <h3 id = "resultado">
 
+            </h3>
+        </div>
+
+ <script src="./scripts/script.js"></script>       
 </body>
+
 </html>
